@@ -1,0 +1,37 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "登录功能测试",
+    "children" : [ {
+      "name" : "登录功能测试",
+      "children" : [ {
+        "name" : "Case_001-登录成功01",
+        "uid" : "4fb17dd368770ab7",
+        "parentUid" : "a7e31956a4122100cd1a96e1ce78c794",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594732638811,
+          "stop" : 1594732652792,
+          "duration" : 13981
+        },
+        "flaky" : false,
+        "parameters" : [ "{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=13582905701,password=905701', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}" ]
+      }, {
+        "name" : "Case_002-登录成功02",
+        "uid" : "9fe0b466ef9e3829",
+        "parentUid" : "a7e31956a4122100cd1a96e1ce78c794",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594732653762,
+          "stop" : 1594732703140,
+          "duration" : 49378
+        },
+        "flaky" : false,
+        "parameters" : [ "{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_002', '是否运行': 'y', '用例名称': '登录成功02', '测试数据': 'username=13671388253,password=123456', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}" ]
+      } ],
+      "uid" : "a7e31956a4122100cd1a96e1ce78c794"
+    } ],
+    "uid" : "fb7ebb1c546e3dccc5fbebdb7cc1c62e"
+  } ]
+}
