@@ -3,7 +3,7 @@ from utils.YamlUtil import YamlReader
 from conf import Conf
 from appium import webdriver
 from utils.LogUtil import my_log
-
+import time
 log = my_log("desired_caps")
 #1、通过yaml来读取caps.yml
 reader = YamlReader(Conf.conf_caps)
@@ -11,8 +11,8 @@ reader = YamlReader(Conf.conf_caps)
 data = reader.data()
 #2、结果，字典转换
 
-#def appium_desired_caps(host,port,systemPort="8200"):
-def appium_desired_caps(host,port):
+def appium_desired_caps(host,port,systemPort="8200"):
+#def appium_desired_caps(host,port):
 #def appium_desired_caps():
     #2、desired创建字典
     desired_caps=dict()
@@ -33,12 +33,14 @@ def appium_desired_caps(host,port):
     desired_caps["automationName"] = data['automationName']
     #不清除app里的原有数据
     desired_caps["noReset"] = data["noReset"]
-    log.info(host)
-    log.info(port)
     #解决并发测试
-    #desired_caps["systemPort"] = systemPort
+    desired_caps["systemPort"] = systemPort
+    #desired_caps['udid'] = '127.0.0.1:62001'
+    time.sleep(3)
+    log.info(systemPort)
     # 8、http，连接appium服务器
     driver = webdriver.Remote('http://%s:%s/wd/hub'%(host,port), desired_caps)
+    log.info("连接appium服务器成功！！！！")
     #driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
     driver.implicitly_wait(20)
 

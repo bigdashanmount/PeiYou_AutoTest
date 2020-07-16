@@ -3,6 +3,8 @@ import subprocess
 from utils.LogUtil import my_log
 import platform
 import re
+import time
+import os
 log = my_log("start_appium")
 #appium自动运行
 #1、检查端口号4723是否启用
@@ -12,7 +14,7 @@ def check_port(host="127.0.0.1",port="4723"):
     try:
         s.connect((host,int(port)))
         s.shutdown(2)
-        log.info('port %s is used!'%port)
+        log.info('端口检查：  port %s is used!'%port)
         return False
     except:
         log.info('port %s is not used'%port)
@@ -23,23 +25,30 @@ def appium_start(host="127.0.0.1",port="4723",bpport="4724",udid=None):
     if check_port(host,port):
         pass
     #2、定义启动参数
-        cmd = "appium -a %s -p %s -bp %s -U %s --session-override"%(host,port,bpport,udid)
+        #cmd = "start /b appium -a %s -p %s -bp %s -U %s"%(host,port,bpport,udid)
+        cmd = "appium -a %s -p %s -bp %s -U %s --session-override" % (host, port, bpport, udid)
+        #cmd= "appium --log C:\myDev\PeiYou_AutoTest\logs\App.log"
+        time.sleep(5)
+        #cmd=os.system("appium")
         log.info("启动cmd： "+cmd)
     #3、subprocess.call，Popen
-        appium_process = subprocess.Popen(cmd,shell=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+        #管道输出信息后，线程会阻塞，无法吊起服务
+        #appium_process = subprocess.Popen(cmd,shell=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+        appium_process = subprocess.Popen(cmd, shell=True)
+
     #4、根据信息验证是否启动成功
-        while True:
-            line = str(appium_process.stdout.readline().strip(),"utf-8")
-            log.info("输出line：  "+line)
-            if "usage" in line or "Error"in line:
-                log.error("启动失败，出错信息为%s"%str(appium_process.stderr.readline().strip(),"utf-8"))
-                break
-            if "listener started" in line:
-                log.info("启动成功：启动参数是：host为%s,port为%s,bpport为%s,udid为%s"%(host,port,bpport,udid))
-                break
-            if "Welcome" in line:
-                log.info("Welcome启动成功：启动参数是：host为%s,port为%s,bpport为%s,udid为%s"%(host,port,bpport,udid))
-                break
+        # while True:
+        #     line = str(appium_process.stdout.readline().strip(),"utf-8")
+        #     log.info("输出line：  "+line)
+        #     if "usage" in line or "Error"in line:
+        #         log.error("启动失败，出错信息为%s"%str(appium_process.stderr.readline().strip(),"utf-8"))
+        #         break
+        #     if "listener started" in line:
+        #         log.info("启动成功：启动参数是：host为%s,port为%s,bpport为%s,udid为%s"%(host,port,bpport,udid))
+        #         break
+            #if "Welcome" in line:
+               # log.info("Welcome启动成功：启动参数是：host为%s,port为%s,bpport为%s,udid为%s"%(host,port,bpport,udid))
+               # break
 
 #3、停止
 def stop_server(port="4723"):
@@ -79,6 +88,6 @@ def get_devices():
     return get_devices_list
 if __name__ == '__main__':
     #check_port()
-    #appium_start(udid="127.0.0.1:62001")
+    appium_start(udid="127.0.0.1:62001")
     #stop_server()
-    get_devices()
+    #get_devices()
