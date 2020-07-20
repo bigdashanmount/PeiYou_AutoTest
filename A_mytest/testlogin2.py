@@ -2,7 +2,7 @@ from appium import webdriver
 import time
 from base import DesireCaps
 from utils import LogUtil
-driver=DesireCaps.appium_desired_caps()
+driver=DesireCaps.appium_desired_caps(host="127.0.0.1",port="4723")
 LogUtil.my_log("这是日志啊1").info("11111111111111111111111111111111111111111111111111")
 #点击密码登录
 driver.find_element_by_id("com.stoneenglish:id/quick_to_login").click()

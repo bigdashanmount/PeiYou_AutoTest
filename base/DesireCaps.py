@@ -36,7 +36,7 @@ def appium_desired_caps(host,port,systemPort="8200"):
     #解决并发测试
     desired_caps["systemPort"] = systemPort
     #desired_caps['udid'] = '127.0.0.1:62001'
-    time.sleep(3)
+    time.sleep(1)
     log.info(systemPort)
     # 8、http，连接appium服务器
     driver = webdriver.Remote('http://%s:%s/wd/hub'%(host,port), desired_caps)

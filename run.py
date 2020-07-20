@@ -16,8 +16,9 @@ if __name__ == '__main__':
                "bpport":"4724",
                "udid":"127.0.0.1:62001",
                "systemPort": 8200}
-    pytest.main([f"--cmdopt={cmdopt}","--alluredir",report_path])
-    time.sleep(2)
+    #pytest.main([f"--cmdopt={cmdopt}","--alluredir",report_path])
+    pytest.main([f"--cmdopt={cmdopt}"])
+    time.sleep(3)
     allure_generate(report_path,report_html)
     #time.sleep(3)
     #send_mail(content="测试完成，请查看测试报告")

@@ -25,19 +25,19 @@ def start_appium_desired(cmdopt):
     bpport = opt["bpport"]
     udid = opt["udid"]
     system_port = opt["systemPort"]
-    print("=========================================================")
-    print(opt)
+    # print("=========================================================")
+    #print(opt)
     driver = None
    #  a=get_devices()
     if udid in get_devices():
-        # print(udid)
+         print(udid)
          #通过驱动CMD命令，启动服务
          appium_start(host,port,bpport,udid)
-         time.sleep(5)
+         time.sleep(8)
          if not check_port():
              #端口号被启动，则提供设备信息，去链接
             #driver = appium_desired_caps(host,port)
             driver = appium_desired_caps(host, port, system_port)
-    return driver
-    # #yield driver
-    # #driver.quit()
+    #return driver
+    yield driver
+    driver.quit()

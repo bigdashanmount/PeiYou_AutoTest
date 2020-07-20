@@ -12,7 +12,7 @@ import allure
 1.重构
 2.pytest运行
 """
-log = my_log("operate")
+log = my_log("operate开始执行")
 data = Data(Conf.testcase_file)
 #执行测试用例列表
 run_list = data.run_list()

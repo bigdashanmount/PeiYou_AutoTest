@@ -87,7 +87,7 @@ def get_devices():
     log.info("获取的devices信息udid:%s"%get_devices_list)
     return get_devices_list
 if __name__ == '__main__':
-    #check_port()
-    appium_start(udid="127.0.0.1:62001")
-    #stop_server()
-    #get_devices()
+    check_port()
+    #appium_start(udid="127.0.0.1:62001")
+    stop_server()
+    get_devices()

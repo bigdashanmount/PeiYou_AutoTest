@@ -2,6 +2,7 @@ import pytest
 from utils.LogUtil import my_log
 from conf import Conf
 from base.ExcelData import Data
+import time
 from base.DesireCaps import appium_desired_caps
 from testcase.operate.KeywordOperatePytest02 import Operate
 log = my_log("TestKeywords")
@@ -21,12 +22,13 @@ class TestKeyword:
     @pytest.mark.parametrize("run_case",run_list)
     def test_run(self,start_appium_desired,run_case):
         self.driver = start_appium_desired
-        self.driver.launch_app()
+       # self.driver.launch_app()
         log.info("执行用例内容:{}".format(run_case))
+        time.sleep(2)
         #调用操作类，传入driver驱动
         Operate(self.driver).step(data,run_case)
 #3、增加setup teardown
     def teardown(self):
         self.driver.close_app()
-    def teardown_class(self):
-        self.driver.quit()
+    #def teardown_class(self):
+        #self.driver.quit()

@@ -13,7 +13,9 @@ desired_caps['deviceName'] ='OPPO_R17_Pro'
 desired_caps["appPackage"] = 'com.stoneenglish'
 # 7、启动界面名appActivity
 desired_caps['appActivity'] = 'com.stoneenglish.MainActivity'
+print("11111111111111111111111111111111111")
 driver =webdriver.Remote('http://localhost:4723/wd/hub',desired_caps)
+print("1111111111222222222222222222211111111111")
 #点击密码登录
 driver.find_element_by_id("com.stoneenglish:id/quick_to_login").click()
 #输入手机号
