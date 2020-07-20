@@ -1,1 +1,0 @@
-INFO     start_appium:StartAppium.py:20 port 4723 is not used
