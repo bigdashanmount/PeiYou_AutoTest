@@ -100,6 +100,23 @@ class Action:
         #     png = self.driver.get_screenshot_as_png()
         #     allure.attach(png,"toast错误",allure.attachment_type.PNG)
         #     raise e
+    def  assert_text(self,**kwargs):
+        try:
+            #CaseData表中的期望结果
+            expected_text = kwargs["expect"]
+            by,value = kwargs["by"],kwargs["value"]
+            if by == "id":
+                ele = WebDriverWait(self.driver, timeout=3, poll_frequency=0.5).until(lambda x: x.find_element(By.ID, value))
+                print(ele.text)
+            if by == "xpath":
+                ele = WebDriverWait(self.driver, timeout=3, poll_frequency=0.5).until(lambda x: x.find_element(By.XPATH, value))
+                print(ele.text)
+            actual_text=ele.text
+            if expected_text==actual_text:
+                return True
+        except Exception as e:
+            self.log.error("文字校验，错误信息：{}".format(e))
+            return False
     def quit(self):
         self.quit()
 

@@ -3,3 +3,4 @@
 click: "click_btn"
 text: "send_keys"
 verify_toast: "assert_toast_result"
+verify_text: "assert_text"

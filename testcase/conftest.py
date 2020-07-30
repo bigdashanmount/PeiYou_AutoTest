@@ -40,4 +40,5 @@ def start_appium_desired(cmdopt):
             driver = appium_desired_caps(host, port, system_port)
     #return driver
     yield driver
+    time.sleep(1)
     driver.quit()

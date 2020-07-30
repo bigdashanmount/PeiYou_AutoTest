@@ -21,8 +21,10 @@ class TestKeyword:
 # 2、重构代码
     @pytest.mark.parametrize("run_case",run_list)
     def test_run(self,start_appium_desired,run_case):
+        #首次会打开两次，后续用例启动APP
         self.driver = start_appium_desired
-       # self.driver.launch_app()
+        # 首次会打开两次，后续用例启动APP
+        self.driver.launch_app()
         log.info("执行用例内容:{}".format(run_case))
         time.sleep(2)
         #调用操作类，传入driver驱动
