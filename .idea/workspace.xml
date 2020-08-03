@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69d6e5a0-3857-4846-8510-e5a8503af057" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/A_mytest/testlogin6.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A_mytest/testlogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/A_mytest/testlogin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/BaseAction.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/BaseAction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/caps.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/caps.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/keywords.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/keywords.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/data.xls" beforeDir="false" afterPath="$PROJECT_DIR$/data/data.xls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/2020-07-18.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/TestKeywords.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/TestKeywords.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/conftest.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            <state relative-caret-position="212">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -33,21 +29,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testcase/operate/KeywordOperatePytest02.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testcase/TestKeywords.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
+            <state relative-caret-position="617">
               <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -57,13 +41,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base/BaseAction.py">
+        <entry file="file://$PROJECT_DIR$/run_parallel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="113" column="32" selection-start-line="113" selection-start-column="32" selection-end-line="113" selection-end-column="32" />
+            <state relative-caret-position="317">
+              <caret line="34" column="36" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="34" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testcase/conftest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testcase/operate/KeywordOperatePytest02.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/keywords.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="3" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -118,10 +132,11 @@
         <option value="$PROJECT_DIR$/run_parallel.py" />
         <option value="$PROJECT_DIR$/conf/caps.yml" />
         <option value="$PROJECT_DIR$/testcase/TestKeywords.py" />
-        <option value="$PROJECT_DIR$/A_mytest/testlogin.py" />
         <option value="$PROJECT_DIR$/conf/keywords.yml" />
         <option value="$PROJECT_DIR$/testcase/conftest.py" />
         <option value="$PROJECT_DIR$/base/BaseAction.py" />
+        <option value="$PROJECT_DIR$/A_mytest/testlogin.py" />
+        <option value="$PROJECT_DIR$/A_mytest/testlogin6.py" />
       </list>
     </option>
   </component>
@@ -151,33 +166,23 @@
             <path>
               <item name="PeiYou_AutoTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="PeiYou_AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="A_mytest" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PeiYou_AutoTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="PeiYou_AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PeiYou_AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PeiYou_AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PeiYou_AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PeiYou_AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PeiYou_AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PeiYou_AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PeiYou_AutoTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="PeiYou_AutoTest" type="462c0819:PsiDirectoryNode" />
               <item name="testcase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PeiYou_AutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PeiYou_AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+              <item name="operate" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -191,16 +196,16 @@
     <property name="settings.editor.selected.configurable" value="debugger.dataViews" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\myDev\PeiYou_AutoTest\testcase\operate" />
-      <recent name="C:\myDev\PeiYou_AutoTest\app" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\myDev\PeiYou_AutoTest\A_mytest" />
       <recent name="C:\myDev\PeiYou_AutoTest" />
       <recent name="C:\myDev\PeiYou_AutoTest\base" />
       <recent name="C:\myDev\PeiYou_AutoTest\testcase" />
       <recent name="C:\myDev\PeiYou_AutoTest\testcase\operate" />
-      <recent name="C:\myDev\PeiYou_AutoTest\testcase\.pytest_cache" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\myDev\PeiYou_AutoTest\testcase\operate" />
+      <recent name="C:\myDev\PeiYou_AutoTest\app" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -229,27 +234,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="C:\myDev\PeiYou_AutoTest\testcase\operate\KeywordOperate_multiple.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="StartAppium" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PeiYou_AutoTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base/StartAppium.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -321,6 +305,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="testlogin6" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PeiYou_AutoTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A_mytest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A_mytest/testlogin6.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests in KeywordOperate_multiple.py" type="tests" factoryName="Unittests" nameIsGenerated="true">
       <module name="PeiYou_AutoTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -354,19 +359,19 @@
     <list>
       <item itemvalue="Python.KeywordOperate_multiple" />
       <item itemvalue="Python.run" />
-      <item itemvalue="Python.StartAppium" />
       <item itemvalue="Python.testlogin" />
       <item itemvalue="Python.run_parallel" />
+      <item itemvalue="Python.testlogin6" />
       <item itemvalue="Python tests.Unittests in KeywordOperate_multiple.py" />
       <item itemvalue="Python tests.pytest in TestKeywords.py" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.run" />
+        <item itemvalue="Python.testlogin6" />
         <item itemvalue="Python.testlogin" />
         <item itemvalue="Python.run_parallel" />
         <item itemvalue="Python tests.pytest in TestKeywords.py" />
-        <item itemvalue="Python.StartAppium" />
       </list>
     </recent_temporary>
   </component>
@@ -409,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595229538203</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="增加文字断言，关键字">
+      <created>1596074123643</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596074123643</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -456,18 +468,18 @@
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13487881" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13435195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32739422" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31959912" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29064587" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.31514478" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32850778" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32962137" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.24387528" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" visible="true" weight="0.24387528" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.6848552" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32850778" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -499,19 +511,10 @@
     <MESSAGE value="启动app时不要清除app里的原有的数据&#10;noReset: False" />
     <MESSAGE value="开启APP去重" />
     <MESSAGE value="删除APK" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除APK" />
+    <MESSAGE value="增加文字断言，关键字" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加文字断言，关键字" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/appium/webdriver/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/YamlUtil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-318">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logs/Appium.log" />
     <entry file="file://$PROJECT_DIR$/logs/2020-07-14.log" />
     <entry file="file://$PROJECT_DIR$/logs/2020-07-15.log" />
@@ -562,16 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/A_mytest/testlogin2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-149">
-          <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/base/StartAppium.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
@@ -604,13 +597,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logs/2020-07-22.log" />
-    <entry file="file://$PROJECT_DIR$/run_parallel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logs/2020-07-20.log" />
     <entry file="file://$PROJECT_DIR$/logs/2020-07-18.log" />
     <entry file="file://$PROJECT_DIR$/logs/2020-07-25.log" />
@@ -679,16 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pluggy/manager.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -721,13 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/keywords.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -764,24 +733,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/A_mytest/testlogin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="38" column="63" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/html/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/2020-07-29.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="-22407" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/2020-07-29.log" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pluggy/callers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
@@ -796,10 +748,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/logs/2020-07-30.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-1930" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/BaseAction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/html/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A_mytest/testlogin2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A_mytest/testlogin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="38" column="65" lean-forward="true" selection-start-line="38" selection-start-column="65" selection-end-line="38" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A_mytest/testlogin6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="42" column="68" selection-start-line="42" selection-start-column="68" selection-end-line="42" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/keywords.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testcase/TestKeywords.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
+        <state relative-caret-position="617">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_parallel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="34" column="36" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="34" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -808,30 +839,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testcase/operate/KeywordOperatePytest02.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="38">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/BaseAction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="113" column="32" selection-start-line="113" selection-start-column="32" selection-end-line="113" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
